@@ -3,11 +3,16 @@
     Created on : 08/02/2019, 19:30:54
     Author     : IvanGzyk
 */
-body{
-    background-image: url ('/img/fundo.jpg');
-    width: 100%;
-    height: 100%;
+/*body{
+    background-image: url("img/fundo.jpg");
+}*/
+style
+ {
+  width: 100%;
+  height: 992px;
+  background-image: url(fundo.jpg);
 }
+
 
 h1{
     text-align: center;
