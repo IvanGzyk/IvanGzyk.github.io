@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>Portifolio_IvanGzyk</title>
@@ -8,18 +7,16 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script type="text/javascript" src="includes/upload/jquery-1.4.2.min.js"></script>
-        <link href="css/galeria_css.css" rel="stylesheet" type="text/css"/>
-        <script src="js/javascript_galeria.js" type="text/javascript"></script>
         <script>
             function carregar(pagina) {
                 $("#conteudo").load(pagina);
             }
             function inicial(pagina) {
-                $("#corpo").load(pagina);
+                $("#pg").load(pagina);
             }
         </script>
     </head>
-    <body>
+    <body id="pg">
 
         <div id="corpo">
             <div id="cabeçalho">
@@ -31,8 +28,7 @@
 
             </div>
             <div id="pessoal">
-                <p><h3><b>Ivan Aparecido Gzyk</b></h3> Aluno do curso de Analise e desenvolvimento de sistemas no Centro Univercitário Campos de Andrade - Uniandrade.</p>
-                <p>Nascimento em 05/06/1980 casado com Priscila Marili Szymansk Gzyk, pai de dois filhos e atualmente estagiario em Desenvolvimento de Sistemas na Copel-Telecom.</p>                
+                <p><h2><b>Ivan Aparecido Gzyk</b>  (GZYK.I.A)</h2>                
             </div>
             <div id="menu">
                 <button type="button" onclick="carregar('curriculo.html')">Curriculo</button>

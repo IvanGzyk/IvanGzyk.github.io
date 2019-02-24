@@ -33,6 +33,14 @@ body{
     height: auto;
     margin-left: 5%;
 }
+#curriculo{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+ p{
+    text-align: left;
+}
 #corpo #rodape{
     width: 90%;
     height: 10%;
@@ -42,11 +50,11 @@ h1{
     text-align: center;
     color: blue;
 }
+h2{
+    text-align: center;
+    color: brown; 
+}
 h3{
     text-align: center;
     color: brown;  
-}
-p{
-    text-align: center;
-    color: brown;    
 }
