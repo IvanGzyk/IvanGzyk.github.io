@@ -12,27 +12,30 @@
             function carregar(pagina) {
                 $("#conteudo").load(pagina);
             }
-
+            function inicial(pagina) {
+                $("#corpo").load(pagina);
+            }
         </script>
     </head>
     <body>
-        <div id="cabeçalho">
 
-            <h1>Portfolio de Projetos</h1>
-            <div id="foto">
-                <img src="img/P_20181012_183851_BF.jpg" alt="Ivan"/>
-            </div>
-
-        </div>
         <div id="corpo">
+            <div id="cabeçalho">
+
+                <h1>Portfolio de Projetos</h1>
+                <div id="foto">
+                    <img src="img/P_20181012_183851_BF.jpg" alt="Ivan"/>
+                </div>
+
+            </div>
             <div id="pessoal">
                 <p><h3><b>Ivan Aparecido Gzyk</b></h3> Aluno do curso de Analise e desenvolvimento de sistemas no Centro Univercitário Campos de Andrade - Uniandrade.</p>
                 <p>Nascimento em 05/06/1980 casado com Priscila Marili Szymansk Gzyk, pai de dois filhos e atualmente estagiario em Desenvolvimento de Sistemas na Copel-Telecom.</p>                
             </div>
             <div id="menu">
                 <button type="button" onclick="carregar('curriculo.html')">Curriculo</button>
-                <br><br>
-                <button type="button" onclick="carregar('Projetos.html')">Projetos</button><br><br>
+                <button type="button" onclick="carregar('Projetos.html')">Projetos</button>
+                <button type="button" onclick="inicial('#')">Voltar</button><br><br>
             </div>
             <div id="conteudo">
 

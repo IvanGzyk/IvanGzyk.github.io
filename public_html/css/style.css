@@ -2,7 +2,42 @@
 body{
     background: url("../fundo.jpg");
 }
-
+#corpo{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    background-color: aqua;
+}
+#corpo #cabeçalho{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+#foto img{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+#corpo #pessoal{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+#corpo #menu{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+#corpo #conteudo{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+#corpo #rodape{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+}
 h1{
     text-align: center;
     color: blue;
@@ -11,47 +46,7 @@ h3{
     text-align: center;
     color: brown;  
 }
-
-img{
-    width: 20%;
-    height: 20%;
-    margin-left: 40%;
-}
-
-#cabeçalho{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    background-color: aqua
-}
-#corpo{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    background-color: aqua;
-
-}
-#mosstrar{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    background-color: aqua;  
-}
-#menu{
-    width: 30%;
-    height: auto;
-}
-#conteudo{
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
-    background-color: aqua; 
-}
-
-.curriculo{
-    
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
-    background-color: aqua;
+p{
+    text-align: center;
+    color: brown;    
 }
