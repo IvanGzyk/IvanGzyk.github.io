@@ -1,8 +1,4 @@
 
-/* 
-    Created on : 08/02/2019, 19:30:54
-    Author     : IvanGzyk
-*/
 body{
     background: url("../fundo.jpg");
 }
@@ -12,8 +8,8 @@ h1{
     color: blue;
 }
 h3{
-  text-align: center;
-  color: brown;  
+    text-align: center;
+    color: brown;  
 }
 
 img{
@@ -22,7 +18,7 @@ img{
     margin-left: 40%;
 }
 
-#caeçalho{
+#cabeçalho{
     width: 80%;
     height: auto;
     margin-left: 10%;
@@ -33,6 +29,29 @@ img{
     height: auto;
     margin-left: 10%;
     background-color: aqua;
-    
+
+}
+#mosstrar{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    background-color: aqua;  
+}
+#menu{
+    width: 30%;
+    height: auto;
+}
+#conteudo{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    background-color: aqua; 
 }
 
+.curriculo{
+    
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    background-color: aqua;
+}
