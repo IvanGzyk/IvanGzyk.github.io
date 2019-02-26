@@ -1,49 +1,42 @@
-/* Page style
-   !!You don't need this for you gallery works!! */
 
-/*body {
-  color: #333;
-  font-family: 'Open Sans', sans-serif;
-}
-*/
 .wtricks-headerbar {
-  width: 100%;
-  height: 100px;
-  background: #FFC402;
-  padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    background: #FFC402;
+    padding-top: 10px;
 }
-  .wtricks-logo {
+.wtricks-logo {
     width: 286px;
     height: 77px;
     margin: 0 auto;
     display: block;
     text-indent: -9999px;
     background: url('http://cdn.wtricks.com.br/images-theme/logo.png');
-  }
+}
 
-  .page-header, .page-footer {
+.page-header, .page-footer {
     width: 100%;
     margin: 20px;
     text-align: center; /* Take careful when you use text-align center
        Bacause this affects postion of gallery navigation! I recomend you use it
        inside a container like this. */
-  }
-      @media (min-width: 800px) {
-        .page-header, .page-footer {
-          width: 800px;
-          padding: 0;
-        }
-      }
-    .page-header p {
-      margin-top: 20px;
-      font-size: .8em;
+}
+@media (min-width: 800px) {
+    .page-header, .page-footer {
+        width: 800px;
+        padding: 0;
     }
+}
+.page-header p {
+    margin-top: 20px;
+    font-size: .8em;
+}
 .page-footer p {
-  color: #ccc;
+    color: #ccc;
 }
 .page-footer a {
-  color: #000;
-  text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 
 /* Final page style
@@ -51,92 +44,92 @@
 
 /* Slideshow container */
 .gallery-container {
-  width: 90%;
-  position: relative;
-  margin: 0 5%;
-  background: #333;
-  padding: 2px;
+    width: 90%;
+    position: relative;
+    margin: 0 5%;
+    background: #333;
+    padding: 2px;
 }
-  @media (min-width: 480px) {
-      .gallery-container {
+@media (min-width: 480px) {
+    .gallery-container {
         width: 800px;
         margin: auto;
-      }
-  }
+    }
+}
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.1);
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
 }
 
 .imgslide {
-  width: 100%;
+    width: 100%;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 @media (max-width: 768px) {
-  .numbertext {
-    top: 15px;
-  }
+    .numbertext {
+        top: 15px;
+    }
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
