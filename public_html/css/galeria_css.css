@@ -1,16 +1,11 @@
 /* Page style
    !!You don't need this for you gallery works!! */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Ok, maybe you should use it for you gallery works */
-}
 
-body {
+/*body {
   color: #333;
   font-family: 'Open Sans', sans-serif;
 }
-
+*/
 .wtricks-headerbar {
   width: 100%;
   height: 100px;
