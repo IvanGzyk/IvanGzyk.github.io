@@ -60,3 +60,79 @@ h3{
     text-align: center;
     color: brown;  
 }
+@media (max-width: 800px) {
+    #corpo{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    background-color: aqua;
+}
+#corpo #cabeçalho{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+#foto img{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+}
+#corpo #pessoal{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+#corpo #menu{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+#corpo #conteudo{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+#curriculo{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+ p{
+    text-align: left;
+}
+#corpo #rodape{
+    width: 100%;
+    height: 10%;
+    margin-left: 0%;
+}
+li{
+    margin-left: 10%;
+}
+ul{
+  margin-left: 10%;  
+}
+ol{
+    margin-left: 10%;
+}
+h1{
+    text-align: center;
+    color: blue;
+    margin-left: 10%;
+    
+}
+h2{
+    text-align: center;
+    color: brown; 
+    margin-left: 10%;
+}
+h3{
+    text-align: center;
+    color: brown;
+    margin-left: 10%;
+}
+p{
+    
+    margin-left: 10%;
+}
+
+}
