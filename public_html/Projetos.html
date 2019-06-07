@@ -1,10 +1,9 @@
-<script>
-    function carregar_imagem(pagina) {
-        $("#btn").load(pagina);
-    }
-</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="includes/upload/jquery-1.4.2.min.js"></script>
+<script src="js/javascript_funcoes.js" type="text/javascript"></script>
+<link href="css/botao.css" rel="stylesheet" type="text/css"/>
 <div>
-    <ul>
         <li><h2>Projetos</h2></li>
         <ol>
             <li>Batalha Naval</li>
@@ -12,8 +11,8 @@
                 <li>Batalha naval foi um jogo que tivemos que criar no primeniro semestre onde foi dividido a turma em equipes e ao final do semestre cada equipe disputaria contra a outra com seu jogo.
                 </li>
             </ul><br>
-            <button type="button" onclick="carregar_imagem('Imagens_btn.html')">Imagens</button>
-            <button type="button" onclick="carregar('Projetos.html')">Fechar</button><br><br><br><br>
+            <button  class="btn" type="button" onclick="carregar_imagem('Imagens_btn.php')">Imagens</button>
+            <button  class="btn" type="button" onclick="carregar('projetos.php')">Fechar</button><br><br><br><br>
             <li>Proposta de projeto</li>
             <ul>
                 <li>Este tema aborda uma proposta para desenvolvimento de um sistema cujo
@@ -27,12 +26,8 @@
                     comunicação entre os síndicos e condôminos aumentando assim a credibilidade do
                     condomínio.</li>
             </ul><br>
-            <button type="button" onclick="carregar_imagem('Imagens_cond.html')">Imagens</button>
-            <button type="button" onclick="carregar('Projetos.html')">Fechar</button><br><br> <br> <br><br>                
+            <button  class="btn" type="button" onclick="carregar_imagem('Imagens_cond.php')">Imagens</button>
+            <button  class="btn" type="button" onclick="carregar('projetos.php')">Fechar</button><br><br> <br> <br><br>                
         </ol>
-    </ul>
 
-    <div id="btn">
-
-    </div>
 </div>

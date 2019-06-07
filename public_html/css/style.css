@@ -1,34 +1,63 @@
 
+@include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+@include transition($btn-transition);
+
 body{
-    background: url("../fundo.jpg");
-    background-repeat: repeat y;
-    background-size: 1600px 800px;
+    //background: url("../fundo.jpg");
+    //background-repeat: repeat y;
+    //background-size: 1600px 800px;
+}
+.admin{
+    position:absolute;
+    margin-top: 0%;
+    margin-left: 80%;
+    height: 20%;
+    color:#fff;
 }
 #corpo{
     width: 80%;
     height: auto;
     margin-left: 10%;
-    background-color: aqua;
+    background-color:beige;
 }
 #corpo #cabeçalho{
     width: 90%;
     height: auto;
     margin-left: 5%;
+    text-align: center;
 }
+
 #foto img{
     width: 20%;
     height: 20%;
-    margin-left: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
-#corpo #pessoal{
+.btn {
+    display: inline-block;
+    font-weight: $btn-font-weight;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: $btn-border-width solid transparent;
+    background-color: #0000FF;
+    color: #fff;
+
+
+}
+#pessoal{
     width: 90%;
     height: auto;
     margin-left: 5%;
+    text-align: center;
 }
 #corpo #menu{
     width: 90%;
     height: auto;
-    margin-left: 5%;
+    margin-left: 10%;
+    //text-align: center;
 }
 #corpo #conteudo{
     width: 90%;
@@ -40,7 +69,7 @@ body{
     height: auto;
     margin-left: 5%;
 }
- p{
+p{
     text-align: left;
 }
 #corpo #rodape{
@@ -62,77 +91,83 @@ h3{
 }
 @media (max-width: 800px) {
     #corpo{
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-    background-color: aqua;
-}
-#corpo #cabeçalho{
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-}
-#foto img{
-    width: 30%;
-    height: 30%;
-    margin-left: 35%;
-}
-#corpo #pessoal{
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-}
-#corpo #menu{
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-}
-#corpo #conteudo{
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-}
-#curriculo{
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-}
- p{
-    text-align: left;
-}
-#corpo #rodape{
-    width: 100%;
-    height: 10%;
-    margin-left: 0%;
-}
-li{
-    margin-left: 10%;
-}
-ul{
-  margin-left: 10%;  
-}
-ol{
-    margin-left: 10%;
-}
-h1{
-    text-align: center;
-    color: blue;
-    margin-left: 10%;
-    
-}
-h2{
-    text-align: center;
-    color: brown; 
-    margin-left: 10%;
-}
-h3{
-    text-align: center;
-    color: brown;
-    margin-left: 10%;
-}
-p{
-    
-    margin-left: 10%;
-}
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        background-color: aqua;
+    }
+    #corpo #cabeçalho{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+    #foto img{
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+    }
+    #corpo #pessoal{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+    #corpo #menu{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+    #corpo #conteudo{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+    #curriculo{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+    p{
+        text-align: left;
+    }
+    #corpo #rodape{
+        width: 100%;
+        height: 10%;
+        margin-left: 0%;
+    }
+    li{
+        margin-left: 10%;
+    }
+    ul{
+        margin-left: 10%;  
+    }
+    ol{
+        margin-left: 10%;
+    }
+    h1{
+        text-align: center;
+        color: blue;
+        margin-left: 10%;
+
+    }
+    h2{
+        text-align: center;
+        color: brown; 
+        margin-left: 10%;
+    }
+    h3{
+        text-align: center;
+        color: brown;
+        margin-left: 10%;
+    }
+    p{
+
+        margin-left: 10%;
+    }
+    #rodape{
+        text-align: center;
+    }
+    #rodape p{
+        text-align: center;
+    }
 
 }

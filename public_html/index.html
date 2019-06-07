@@ -7,14 +7,9 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script type="text/javascript" src="includes/upload/jquery-1.4.2.min.js"></script>
-        <script>
-            function carregar(pagina) {
-                $("#conteudo").load(pagina);
-            }
-            function inicial(pagina) {
-                $("#pg").load(pagina);
-            }
-        </script>
+        <script src="js/javascript_funcoes.js" type="text/javascript"></script>
+        <script src="conexcao/db.js" type="text/javascript"></script>
+        <link href="css/botao.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="pg">
 
@@ -31,17 +26,24 @@
                 <p><h2><b>Ivan Aparecido Gzyk</b></h2>             
             </div>
             <div id="menu">
-                <button type="button" onclick="carregar('curriculo.html')">Curriculo</button>
-                <button type="button" onclick="carregar('imagens_referencias.html')">Referencias</button>
-                <button type="button" onclick="carregar('imagens_certificados.html')">Certificados</button>
-                <button type="button" onclick="carregar('Projetos.html')">Projetos</button>
-                <button type="button" onclick="inicial('#')">Fechar</button><br><br>
+                <button  class="btn" type="button" onclick="carregar('curriculo.html')">Curriculo</button>
+                <button  class="btn" type="button" onclick="carregar('imagens_referencias.html')">Referencias</button>
+                <button  class="btn" type="button" onclick="carregar('imagens_certificados.html')">Certificados</button>
+                <button  class="btn" type="button" onclick="carregar('Projetos.html')">Projetos</button>
+                <button  class="btn" type="button" onclick="inicial('#')">Fechar</button><br><br>
             </div>
             <div id="conteudo">
 
             </div>
-            <div id="rodape">
+            <div id="projeto_btn">
 
+            </div>
+            <div id="projeto">
+            </div>
+            <br><br><br><br>
+            <div id="rodape">
+                <p>Ivan Aparecido Gzyk</p>
+                <p><b>Contato: </b>41-999645138 - 41-997703117<a href="mailto:"ivangzyk@hotmail.com"> Eviar-Email:</a> </p>
             </div>
         </div>
     </body>
