@@ -36,15 +36,16 @@ body{
     margin-right: auto
 }
 .btn {
-    display: inline-block;
-    font-weight: $btn-font-weight;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
+    display: inline-block; 
+    top:25px; 
+    left:0;
+    background-color:#0000FF;
+    color: #fff;
+    display:none;
     user-select: none;
     border: $btn-border-width solid transparent;
-    background-color: #0000FF;
-    color: #fff;
+    margin-top: 3%;
+    
 
 }
 .btn{display:inline-block;
@@ -75,6 +76,8 @@ body{
     height: auto;
     margin-left: 1%;
     margin-top: 3%;
+    margin-bottom: 3%;
+    border-bottom: solid 1px #0000FF;
     //text-align: center;
 }
 #corpo #conteudo{
