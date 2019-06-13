@@ -6,6 +6,7 @@ body{
     //background: url("../fundo.jpg");
     //background-repeat: repeat y;
     //background-size: 1600px 800px;
+    background-color:#f6f3fc;
 }
 .admin{
     position:absolute;
@@ -18,7 +19,7 @@ body{
     width: 80%;
     height: auto;
     margin-left: 10%;
-    background-color:beige;
+    background-color:#fff;
 }
 #corpo #cabeçalho{
     width: 90%;
@@ -45,7 +46,23 @@ body{
     background-color: #0000FF;
     color: #fff;
 
-
+}
+.btn{display:inline-block;
+     font-weight:400;
+     text-align:center;
+     white-space:nowrap;
+     vertical-align:middle;
+     -webkit-user-select:none;
+     -moz-user-select:none;
+     -ms-user-select:none;
+     user-select:none;
+     border:1px solid transparent;
+     padding:.375rem .75rem;
+     font-size:1rem;
+     line-height:1.5;
+     border-radius:.25rem;
+     transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+@media screen and (prefers-reduced-motion:reduce){.btn{transition:none}
 }
 #pessoal{
     width: 90%;
@@ -56,7 +73,8 @@ body{
 #corpo #menu{
     width: 90%;
     height: auto;
-    margin-left: 10%;
+    margin-left: 1%;
+    margin-top: 3%;
     //text-align: center;
 }
 #corpo #conteudo{
@@ -79,22 +97,28 @@ p{
 }
 h1{
     text-align: center;
-    color: blue;
+    color: #0000FF;
 }
 h2{
     text-align: center;
-    color: brown; 
+    color: #0000FF; 
 }
 h3{
     text-align: center;
-    color: brown;  
+    color: #0000FF;  
 }
+    #rodape{
+        text-align: center;
+    }
+    #rodape p{
+        text-align: center;
+    }
 @media (max-width: 800px) {
     #corpo{
         width: 100%;
         height: auto;
         margin-left: 0%;
-        background-color: aqua;
+        background-color:#fff;
     }
     #corpo #cabeçalho{
         width: 100%;
